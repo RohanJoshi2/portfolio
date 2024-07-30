@@ -1,0 +1,4 @@
+- 👋 Hi, I’m Rohan Joshi
+- 📫 How to reach me: email: rohanjoshi7678@gmail.com
+- 😄 Pronouns: he/him
+- ⌚ Timezone: UTC - 7:00/PDT
