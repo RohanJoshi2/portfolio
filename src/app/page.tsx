@@ -1,3 +1,4 @@
+import { link } from "fs";
 import Image from "next/image";
 
 export default function Home() {
@@ -60,12 +61,110 @@ export default function Home() {
 
       <div id="languages">
         <h1 className="text-3xl">Languages</h1>
-        <a></a>
+        <div>
+          <div className="flex">
+            <h1 className="text-lg">Java</h1>
+            <Image
+              src="Logos/Language_logos/Java_logo.svg"
+              alt="Java Logo"
+              width="25"
+              height="60"
+            ></Image>    
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">C++</h1>
+            <Image
+              src="Logos/Language_logos/C++_logo.svg"
+              alt="C++ Logo"
+              width="30"
+              height="25"
+            ></Image>    
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">Python</h1>
+            <Image
+              src="Logos/Language_logos/Python_logo.svg"
+              alt="Python Logo"
+              width="25"
+              height="25"
+            ></Image>   
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">HTML,CSS</h1>
+            <Image
+              src="Logos/Language_logos/Web_Dev_logos/HTML_logo.svg"
+              alt="HTML Logo"
+              width="30"
+              height="40"
+            ></Image>   
+            <Image
+              src="Logos/Language_logos/Web_Dev_logos/CSS_logos/CSS3_logo.svg"
+              alt="CSS Logo"
+              width="30"
+              height="40"
+            ></Image> 
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">TailwindCSS</h1>
+            <Image
+              src="Logos/Language_logos/Web_Dev_logos/CSS_logos/TailwindCSS_logo.svg"
+              alt="TailwindCSS Logo"
+              width="40"
+              height="40"
+            ></Image>
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">Javascript</h1>
+            <Image
+              src="Logos/Language_logos/Web_Dev_logos/JS_logos/JavaScript_logo.svg"
+              alt="JavaScript Logo"
+              width="50"
+              height="30"
+            ></Image>
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">ReactJS</h1>
+            <Image
+              src="Logos/Language_logos/Web_Dev_logos/JS_logos/ReactJS_logo.svg"
+              alt="React Logo"
+              width="30"
+              height="30"
+            ></Image>
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">NextJS</h1>
+            <div className="bg-white rounded-3xl">
+              <Image
+                src="Logos/Language_logos/Web_Dev_logos/JS_logos/NextJS_logo.svg"
+                alt="Next Logo"
+                width="25"
+                height="30"
+              ></Image>
+            </div>
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">TypeScript</h1>
+            <Image
+              src="Logos/Language_logos/Web_Dev_logos/TypeScript_logo.svg"
+              alt="TypeScript Logo"
+              width="30"
+              height="30"
+            ></Image>
+          </div>
+        </div>
       </div>
 
       <div id="tools">
         <h1 className="text-3xl">Tools</h1>
-        <a></a>
+        <div className="flex">
+            <h1 className="text-lg">Notion</h1>
+            <Image
+              src="Logos/Software_logos/Notion_logo.svg"
+              alt="Notion Logo"
+              width="30"
+              height="60"
+            ></Image>    
+          </div>
       </div>
 
       <div id="projects">
