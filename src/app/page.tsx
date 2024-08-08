@@ -205,7 +205,7 @@ export default function Home() {
 
       <div id="projects">
         <h1 className="text-3xl">Projects</h1>
-        <a></a>
+        <a href="https://github.com/RohanJoshi2/hello-prisma">hello-prisma</a>
       </div>
     </main>
   );
