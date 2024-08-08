@@ -186,8 +186,17 @@ export default function Home() {
           <div className="flex">
             <h1 className="text-lg">Docker</h1>
             <Image
-              src="Logos/Software_logos/Docket_logo.svg"
+              src="Logos/Software_logos/Docker_logo.svg"
               alt="Docker Logo"
+              width="30"
+              height="60"
+            ></Image>    
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">PostgreSQL</h1>
+            <Image
+              src="Logos/Software_logos/PostgreSQL_logo.svg"
+              alt="PostgreSQL Logo"
               width="30"
               height="60"
             ></Image>    
