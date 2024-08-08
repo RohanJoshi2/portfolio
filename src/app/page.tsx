@@ -169,7 +169,25 @@ export default function Home() {
             <h1 className="text-lg">Figma</h1>
             <Image
               src="Logos/Software_logos/Figma_logo.svg"
-              alt="Notion Logo"
+              alt="Figma Logo"
+              width="30"
+              height="60"
+            ></Image>    
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">PrismaORM</h1>
+            <Image
+              src="Logos/Software_logos/Prisma_logo.svg"
+              alt="Prisma Logo"
+              width="30"
+              height="60"
+            ></Image>    
+          </div>
+          <div className="flex">
+            <h1 className="text-lg">Docker</h1>
+            <Image
+              src="Logos/Software_logos/Docket_logo.svg"
+              alt="Docker Logo"
               width="30"
               height="60"
             ></Image>    
