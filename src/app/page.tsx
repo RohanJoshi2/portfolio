@@ -205,8 +205,8 @@ export default function Home() {
 
       <div id="projects">
         <h1 className="text-3xl">Projects</h1>
-        <a href="https://github.com/RohanJoshi2/hello-prisma">Prisma Test</a>
-        <a href="https://github.com/RohanJoshi2/pokedex">Pokedex</a>
+        <a href="https://github.com/RohanJoshi2/hello-prisma">Prisma Test</a> <br></br>
+        <a href="https://github.com/RohanJoshi2/pokedex">Pokedex</a> <br></br>
       </div>
     </main>
   );
