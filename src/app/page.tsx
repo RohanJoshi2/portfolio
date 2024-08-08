@@ -165,6 +165,15 @@ export default function Home() {
               height="60"
             ></Image>    
           </div>
+          <div className="flex">
+            <h1 className="text-lg">Figma</h1>
+            <Image
+              src="Logos/Software_logos/Figma_logo.svg"
+              alt="Notion Logo"
+              width="30"
+              height="60"
+            ></Image>    
+          </div>
       </div>
 
       <div id="projects">
