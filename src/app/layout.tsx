@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Rohan Joshi",
   description: "Portfolio of Rohan Joshi",
   icons:{
-    icon:'public/siga',
+    icon:'/favicon.ico',
   }
 };
 
