@@ -4,23 +4,22 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-xl lg:flex">
-        <p className="left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          <code className="font-mono font-bold">rohan.joshi()</code>
-        </p>
+      <div className="z-10 w-full max-w-5xl items-center font-mono text-xl justify-center flex flex-col">
+        <Image
+          src="Logos/Function_logo.svg"
+          alt="Function Logo"
+          height="100"
+          width="244"
+        ></Image>
+        <p className="max-w-md items-center text-pretty text-xs text-muted-foreground">
+          <a className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline" href="https://www.google.com/maps/place/Dublin,+CA" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-globe h-3 w-3">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+            <path d="M2 12h20"></path>
+          </svg>
+          Based in the United States</a></p>
       </div>
-
-      <div className="relative z-[-1] flex place-items-center">
-        <p className="left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          <code className="font-mono font-bold">
-            - 👋 Hi, I’m Rohan Joshi <br></br>
-            - 📫 Email: rohanjoshi7678@gmail.com <br></br>
-            - 😄 Pronouns: he/him <br></br>
-            - ⌚ Timezone: UTC - 7:00/PDT <br></br>
-          </code>
-        </p>
-      </div>
-      
     </main>
   );
 }
