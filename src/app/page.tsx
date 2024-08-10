@@ -6,6 +6,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center p-24">
       <div className="z-10 w-full max-w-5xl items-center font-mono text-xl justify-center flex flex-col">
         <Image
+          className="mb-5"
           src="Logos/Function_logo.svg"
           alt="Function Logo"
           height="100"
