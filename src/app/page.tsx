@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <section className="flex min-h-0 flex-col gap-y-3">
             <h2 className="text-xl font-bold text-[#FFFFFF]">About Me</h2>
-            <p className="text-pretty text-sm text-muted-foreground print:text-[12px]">Hi, I'm a 9th grader @ <span className="hover:underline"><a href="https://dhs.dublinusd.org/" target="_blank" rel="noopener noreferrer">Dublin High School</a></span>
+            <p className="text-pretty text-sm text-muted-foreground print:text-[12px]">Hi, Im a 9th grader @ <span className="hover:underline"><a href="https://dhs.dublinusd.org/" target="_blank" rel="noopener noreferrer">Dublin High School</a></span>
             .
             </p></section>
       </div>
