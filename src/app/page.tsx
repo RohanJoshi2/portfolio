@@ -20,7 +20,7 @@ export default function Home() {
             <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
             <path d="M2 12h20"></path>
           </svg>
-          Based in the United States
+          Based in the Bay Area
           </a>
         </p>
         <hr></hr>
