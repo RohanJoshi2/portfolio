@@ -4,8 +4,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="z-10 w-full max-w-5xl items-center font-mono text-xl justify-center flex flex-col">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
+      <div className="mx-auto w-full max-w-2xl space-y-8 bg-black print:space-y-4">
+        <div className="flex flex-col items-center justify-center">
         <Image
           className="mb-5"
           src="Logos/Function_logo.svg"
@@ -23,6 +24,7 @@ export default function Home() {
           Based in the Bay Area
           </a>
         </p>
+        </div>
         <hr></hr>
         <div>
           <a href="https://github.com/RohanJoshi2" target="_blank" className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-8 w-8">
@@ -45,27 +47,27 @@ export default function Home() {
               I also use many softwares for coding, like Docker and Figma.
             </p>
           </section>
-      </div>
-      <section className="flex min-h-0 flex-col gap-y-3">
+          <section className="flex min-h-0 flex-col gap-y-3">
           <h2 className="text-xl font-bold text-[#FFFFFF]">Work Experience</h2>
           <div className="rounded-lg bg-card text-card-foreground">
             <div className="flex flex-col space-y-1.5">
               <div className="flex items-center justify-between gap-x-2 text-base">
-                <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                <h2 className="inline-flex items-center justify-center gap-x-1 font-bold leading-none">
                   <a className="hover:underline" href="https://www.thecoderschool.com/">TheCoderSchool</a>
                   <span className="inline-flex gap-x-1">
-                    <div className="inline-flex items-center rounded-md border px-2 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Onsite</div>
-                    <div className="inline-flex items-center rounded-md border px-2 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/60 align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Volunteer</div>
+                    <div className="inline-flex items-center rounded-md border px-2 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Onsite</div>
+                    <div className="inline-flex items-center rounded-md border px-2 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 align-middle text-xs print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Volunteer</div>
                   </span>
-                </h3>
+                </h2>
                 <div className="text-sm tabular-nums text-gray-500">2024 July</div>
               </div>
-              <h4 className="text-sm leading-none print:text-[12px]">Intern
+              <h4 className="text-sm leading-none font-semithin print:text-[12px]">Intern
               </h4>
             </div>
-            <div className="text-pretty text-muted-foreground mt-2 text-xs print:text-[10px]">As an intern of TheCoderSchool, I</div>
+            <div className="text-pretty text-muted-foreground mt-2 text-xs print:text-[10px] text-[#b7b7b7]">As an intern of TheCoderSchool, I</div>
           </div>
-        </section>
+      </section>
+      </div>
     </main>
   );
 }
