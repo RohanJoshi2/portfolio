@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       <div className="mx-auto w-full max-w-2xl space-y-8 bg-black print:space-y-4">
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex fle items-center justify-center">
         <Image
           className="mb-5"
           src="Logos/Function_logo.svg"
@@ -15,7 +15,7 @@ export default function Home() {
           width="244"
         ></Image>
         <p className="max-w-md items-center text-pretty text-xs text-muted-foreground">
-          <a className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline" href="https://www.google.com/maps/place/Bay Area,+CA" target="_blank">
+          <a className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline" href="https://www.google.com/maps/place/Dublin,+CA" target="_blank">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-globe h-3 w-3">
             <circle cx="12" cy="12" r="10"></circle>
             <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
@@ -42,7 +42,7 @@ export default function Home() {
             <h2 className="text-xl font-bold text-[#FFFFFF]">About Me</h2>
             <p className="text-pretty text-sm text-muted-foreground print:text-[12px]">
               Hi, I am a 9th grader at <span className="hover:underline"><a href="https://dhs.dublinusd.org/" target="_blank" rel="noopener noreferrer">Dublin High School</a></span>
-              . My coding journey started at a very young age, when I started using scratch at around first grade, which allowed me to easily make my ideas real. Later on in 2017 my parents enrolled me into <span className="hover:underline"><a href="https://www.hackingtons.com/" target="_blank" rel="noopener noreferrer">Hackingtons</a></span>
+              . My coding journey started at a very young age, when I started using scratch in around first grade, which allowed em to easily make my ideas real. Later on in 2017 my parents enrolled me into <span className="hover:underline"><a href="https://www.hackingtons.com/" target="_blank" rel="noopener noreferrer">Hackingtons</a></span>
               . This is where I started learning web develpment. I use a wide variety of coding languages including: HTML, CSS, JS, Python, Java, C++, Node JS, Prisma ORM, Postgre SQL, React JS, Next JS, and Tailwind CSS.
               I also use many softwares for coding, like Docker and Figma.
             </p>
@@ -64,7 +64,7 @@ export default function Home() {
               <h4 className="text-sm leading-none font-semithin print:text-[12px]">Intern
               </h4>
             </div>
-            <div className="text-pretty text-muted-foreground mt-2 text-xs print:text-[10px] text-[#b7b7b7]">As an intern of TheCoderSchool, I</div>
+            <div className="text-pretty text-muted-foreground mt-2 text-xs print:text-[10px] text-[#b7b7b7]">As an intern of TheCoderSchool, I had a role helping students follow along with the lesson and debugging their projects.</div>
           </div>
       </section>
       </div>
