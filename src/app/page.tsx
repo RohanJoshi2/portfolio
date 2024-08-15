@@ -87,6 +87,45 @@ export default function Home() {
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-zinc-700">Python</div>
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-zinc-700">TypeScript</div>
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-zinc-700">Git/GitHub</div>
+              <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-zinc-700">Pygame</div>
+            </div>
+          </section>
+          <section className="flex min-h-0 flex-col gap-y-3 print-force-new-page scroll-mb-16">
+            <h2 className="text-xl font-bold text-[#FFFFFF]">Projects</h2>
+            <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+                <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
+                    <div className="flex flex-col space-y-1.5">
+                        <div className="space-y-1">
+                            <h3 className="font-semibold tracking-tight text-base"><a href="//github.com/Rohanjoshi2/hello-prisma" target="_blank" className="inline-flex items-center gap-1 hover:underline">HELLO-PRISMA</a></h3>
+                            <p className="text-muted-foreground text-xs print:text-[10px]">My first time using many things like SQL, Prisma, Docker, and advanced Node JS.</p>
+                        </div>
+                    </div>
+                    <div className="text-pretty text-sm text-muted-foreground mt-auto flex">
+                        <div className="mt-2 flex flex-wrap gap-1">
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">HTML</div>
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">CSS</div>
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">JS</div>
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Node JS</div>
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Prisma ORM</div>
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Postgre SQL</div>
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Docker</div>
+                        </div>
+                    </div>
+                </div>
+                <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
+                    <div className="flex flex-col space-y-1.5">
+                        <div className="space-y-1">
+                            <h3 className="font-semibold tracking-tight text-base"><a href="//github.com/Arbitr-ary-ily/MasteryOnline" target="_blank" className="inline-flex items-center gap-1 hover:underline">MasteryOnline <span className="h-1 w-1 rounded-full bg-green-500"></span></a></h3>
+                            <p className="text-muted-foreground text-xs print:text-[10px]">A fun pokedex app, complete with GUI made entirely in Python. Data from <a href="//pokemondb.net" target="_blank" className="inline-flex items-center gap-1 hover:underline">Pokemondb</a></p>
+                        </div>
+                    </div>
+                    <div className="text-pretty text-sm text-muted-foreground mt-auto flex">
+                        <div className="mt-2 flex flex-wrap gap-1">
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Python</div>
+                            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap bg-secondary text-secondary-foreground hover:bg-secondary/60 px-1 py-0 text-[10px] print:px-1 print:py-0.5 print:text-[8px] print:leading-tight">Pygame</div>
+                        </div>
+                    </div>
+                </div>
             </div>
           </section>
       </div>
