@@ -115,7 +115,7 @@ export default function Home() {
                 <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
                     <div className="flex flex-col space-y-1.5">
                         <div className="space-y-1">
-                            <h3 className="font-semibold tracking-tight text-base"><a href="//github.com/Arbitr-ary-ily/MasteryOnline" target="_blank" className="inline-flex items-center gap-1 hover:underline">MasteryOnline <span className="h-1 w-1 rounded-full bg-green-500"></span></a></h3>
+                            <h3 className="font-semibold tracking-tight text-base"><a href="//github.com/Rohanjoshi2/pokedex" target="_blank" className="inline-flex items-center gap-1 hover:underline">Pokedex <span className="h-1 w-1 rounded-full bg-green-500"></span></a></h3>
                             <p className="text-muted-foreground text-xs print:text-[10px]">A fun pokedex app, complete with GUI made entirely in Python. Data from <a href="//pokemondb.net" target="_blank" className="inline-flex items-center gap-1 hover:underline">Pokemondb</a></p>
                         </div>
                     </div>
