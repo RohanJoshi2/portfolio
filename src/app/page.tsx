@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       <div className="mx-auto w-full max-w-2xl space-y-8 bg-black print:space-y-4">
-        <div className="flex fle items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
         <Image
           className="mb-5"
           src="Logos/Function_logo.svg"
@@ -89,7 +89,7 @@ export default function Home() {
                 <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-gray-900">TypeScript</div>
                 <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-gray-900">Git/GitHub</div>
               </div>
-          </section>
+        </section>
       </div>
     </main>
   );
