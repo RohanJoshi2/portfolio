@@ -105,6 +105,7 @@ export default function Home() {
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-zinc-700">TypeScript</div>
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-zinc-700">Git/GitHub</div>
               <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-zinc-700">Pygame</div>
+              <div className="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap print:text-[10px] text-white hover:bg-zinc-700">Vex V5</div>
             </div>
           </section>
           <section className="flex min-h-0 flex-col gap-y-3 print-force-new-page scroll-mb-16">
