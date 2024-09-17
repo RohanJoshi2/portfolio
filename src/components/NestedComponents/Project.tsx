@@ -33,7 +33,7 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
         >
           <div
             className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3"
-            style={{ boxShadow: 'none', margin: '0' }} // Remove any extra shadows and margins
+            style={{ boxShadow: 'none', margin: '0' }}
           >
             <div className="flex flex-col space-y-1.5">
               <div className="space-y-1">
