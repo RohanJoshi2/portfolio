@@ -21,7 +21,7 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
   }, []);
 
   return (
-    <div>
+    <div className="flex justify-center">
       {isMounted ? (
         <Tilt
           className="parallax-effect-tilt"
@@ -29,11 +29,13 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
           scale={1.02}
           tiltMaxAngleX={20}
           tiltMaxAngleY={20}
-          glareEnable={false}  
+          glareEnable={false
+            
+          }  
         >
           <div
             className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3 -z-11"
-            style={{ boxShadow: 'none', margin: '0' }}
+            style={{ boxShadow: 'none', margin: '0', height: '100%' }}
           >
             <div className="flex flex-col space-y-1.5">
               <div className="space-y-1">

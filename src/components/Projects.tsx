@@ -5,7 +5,13 @@ export function Projects() {
       <main>
           <section className="flex min-h-0 flex-col gap-y-3 print-force-new-page scroll-mb-16">
             <h2 className="text-xl font-bold text-[#FFFFFF]">Projects</h2>
-            <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+                <Project
+                    link="https://github.com/Rohanjoshi2/stopwatch"
+                    title="Stopwatch"
+                    description="Simple stopwatch app made in React Native."
+                    languages={[ "React Native", "React JS", "TypeScript", "CSS"]}
+                />
                 <Project
                     link="https://github.com/Rohanjoshi2/portfolio"
                     title="Portfolio"
