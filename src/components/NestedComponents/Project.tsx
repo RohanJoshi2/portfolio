@@ -32,7 +32,7 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
           glareEnable={false}  
         >
           <div
-            className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3"
+            className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3 -z-11"
             style={{ boxShadow: 'none', margin: '0' }}
           >
             <div className="flex flex-col space-y-1.5">
