@@ -1,6 +1,10 @@
-import React from 'react';
-import Tilt from 'react-parallax-tilt';
+'use client';
+
+import React, { useState, useEffect } from 'react';
+import dynamic from 'next/dynamic';
 import { ProjectLanguage } from '@/components/NestedComponents/ProjectLanguage';
+
+const Tilt = dynamic(() => import('react-parallax-tilt'), { ssr: false });
 
 interface ProjectProps {
   link: string;
@@ -10,36 +14,53 @@ interface ProjectProps {
 }
 
 export const Project: React.FC<ProjectProps> = ({ link, title, description, languages }) => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
   return (
-    <main>
-      <Tilt
-        className="parallax-effect-glare-scale"
-        perspective={500}
-        glareEnable={true}
-        glareMaxOpacity={0.45}
-        scale={1.02}
-        gyroscope={true}
-      >
-        <div className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3">
-          <div className="flex flex-col space-y-1.5">
-            <div className="space-y-1">
-              <h3 className="font-semibold tracking-tight text-base">
-                <a href={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:underline">
-                  {title}
-                </a>
-              </h3>
-              <p className="text-muted-foreground text-xs print:text-[10px]">{description}</p>
+    <div>
+      {isMounted ? (
+        <Tilt
+          className="parallax-effect-tilt"
+          perspective={500}
+          scale={1.02}
+          tiltMaxAngleX={-20}
+          tiltMaxAngleY={-20}
+          glareEnable={false}  
+        >
+          <div
+            className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3"
+            style={{ boxShadow: 'none', margin: '0' }} // Remove any extra shadows and margins
+          >
+            <div className="flex flex-col space-y-1.5">
+              <div className="space-y-1">
+                <h3 className="font-semibold tracking-tight text-base">
+                  <a href={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:underline">
+                    {title}
+                  </a>
+                </h3>
+                <p className="text-muted-foreground text-xs print:text-[10px]">{description}</p>
+              </div>
+            </div>
+            <div className="text-pretty text-sm text-muted-foreground mt-auto flex">
+              <div className="mt-2 flex flex-wrap gap-1">
+                {languages.map((lang, index) => (
+                  <ProjectLanguage key={index} language={lang} />
+                ))}
+              </div>
             </div>
           </div>
-          <div className="text-pretty text-sm text-muted-foreground mt-auto flex">
-            <div className="mt-2 flex flex-wrap gap-1">
-              {languages.map((lang, index) => (
-                <ProjectLanguage key={index} language={lang} />
-              ))}
-            </div>
-          </div>
+        </Tilt>
+      ) : (
+        <div
+          className="rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3"
+          style={{ boxShadow: 'none', margin: '0' }}
+        >
         </div>
-      </Tilt>
-    </main>
+      )}
+    </div>
   );
 };
