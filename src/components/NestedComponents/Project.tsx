@@ -27,8 +27,8 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
           className="parallax-effect-tilt"
           perspective={500}
           scale={1.02}
-          tiltMaxAngleX={-20}
-          tiltMaxAngleY={-20}
+          tiltMaxAngleX={20}
+          tiltMaxAngleY={20}
           glareEnable={false}  
         >
           <div
