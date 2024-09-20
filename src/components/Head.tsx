@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Head() {
   return (
-    <main>
+    <section>
         <div className="flex flex-col items-center justify-center">
             <Image
             className="mb-5"
@@ -35,6 +35,6 @@ export function Head() {
                 </svg>
             </a>
         </div>
-    </main>
+    </section>
   )
 };
