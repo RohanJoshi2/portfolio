@@ -8,6 +8,8 @@ export function Languages() {
                 <Language language='HTML'/>
                 <Language language='CSS'/>
                 <Language language='Tailwind CSS'/>
+                <Language language='Radix UI'/>
+                <Language language='Shadcn/ui'/>
                 <Language language='JavaScript'/>
                 <Language language='TypeScript'/>
                 <Language language='React JS'/>
