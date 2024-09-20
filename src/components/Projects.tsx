@@ -24,7 +24,7 @@ export function Projects() {
                     languages={[ "HTML", "CSS", "JavaScript", "Node JS", "Express JS", "Prisma ORM", "Postgre SQL", "Docker" ]}
                 />
                 <Project
-                    link="https://github.com/Rohanjoshi2/pokedex"
+                    link="https://github.com/Rohanjoshi2/pokedex-app"
                     title="Pokedex"
                     description="A fun pokedex app, complete with GUI made entirely in Python. Data from Pokemondb, parsed with BS4."
                     languages={[ "Python", "Pygame", "BS4" ]}
