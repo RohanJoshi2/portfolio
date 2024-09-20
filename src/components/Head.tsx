@@ -25,25 +25,25 @@ export function Head() {
         href="https://github.com/RohanJoshi2"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-white h-8 w-8"
+        className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-white text-white hover:text-black h-8 w-8"
         >
-            <GitHubLogoIcon className="h-5 w-5 text-white hover:text-black transition-colors" />
+            <GitHubLogoIcon className="h-5 w-5" />
         </a>
         <a
           href="https://www.instagram.com/rohanjoshi1000/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:bg-white h-8 w-8"
+          className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:bg-white text-white hover:text-black h-8 w-8"
         >
-          <InstagramLogoIcon className="h-5 w-5 text-white hover:text-black transition-colors" />
+          <InstagramLogoIcon className="h-5 w-5" />
         </a>
         <a
           href="mailto:rohanjoshi7678@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:bg-white h-8 w-8"
+          className="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:bg-white text-white hover:text-black h-8 w-8"
         >
-          <EnvelopeClosedIcon className="h-5 w-5 text-white hover:text-black transition-colors" />
+          <EnvelopeClosedIcon className="h-5 w-5" />
         </a>
       </div>
     </section>
