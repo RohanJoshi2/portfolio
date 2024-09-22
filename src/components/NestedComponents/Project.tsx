@@ -24,7 +24,7 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
 
   const ProjectContent = () => (
       <div
-          className="project-card rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3 h-full"
+          className="project-card rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3 h-full w-full"
           style={{ boxShadow: 'none', margin: '0' }}
       >
         <div className="flex flex-col space-y-1.5 flex-grow">
