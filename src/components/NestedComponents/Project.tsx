@@ -22,8 +22,8 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
 
   const ProjectContent = () => (
       <div
-          className="project-card rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3"
-          style={{ boxShadow: 'none', margin: '0', height: '90%' }}
+          className="project-card rounded-lg bg-card text-card-foreground flex flex-col overflow-hidden border border-muted p-3 h-full"
+          style={{ boxShadow: 'none', margin: '0' }}
       >
         <div className="flex flex-col space-y-1.5 flex-grow">
           <div className="space-y-1">
@@ -46,7 +46,7 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
   );
 
   return (
-      <div className="flex justify-center h-[250px]">
+      <div className="flex justify-center h-[250px] w-full">
         {isMounted ? (
             <Tilt
                 className="parallax-effect-tilt"
