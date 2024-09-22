@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import { ProjectLanguage } from '@/components/NestedComponents/ProjectLanguage';
+import { useMedia } from 'react-use';
 
 const Tilt = dynamic(() => import('react-parallax-tilt'), { ssr: false });
 
@@ -15,6 +16,7 @@ interface ProjectProps {
 
 export const Project: React.FC<ProjectProps> = ({ link, title, description, languages }) => {
   const [isMounted, setIsMounted] = useState(false);
+  const isMobile = useMedia('(max-width: 768px)'); // Tailwind's md breakpoint
 
   useEffect(() => {
     setIsMounted(true);
@@ -48,17 +50,21 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
   return (
       <div className="flex justify-center h-[250px] w-full">
         {isMounted ? (
-            <Tilt
-                className="parallax-effect-tilt"
-                perspective={500}
-                scale={1.02}
-                tiltMaxAngleX={20}
-                tiltMaxAngleY={20}
-                glareEnable={false}
-                style={{ height: '100%', width: '100%' }}
-            >
-              <ProjectContent />
-            </Tilt>
+            isMobile ? (
+                <ProjectContent />
+            ) : (
+                <Tilt
+                    className="parallax-effect-tilt"
+                    perspective={500}
+                    scale={1.02}
+                    tiltMaxAngleX={20}
+                    tiltMaxAngleY={20}
+                    glareEnable={false}
+                    style={{ height: '100%', width: '100%' }}
+                >
+                  <ProjectContent />
+                </Tilt>
+            )
         ) : (
             <ProjectContent />
         )}
