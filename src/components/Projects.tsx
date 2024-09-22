@@ -18,8 +18,8 @@ export function Projects() {
                     languages={[ "React Native", "React JS", "TypeScript", "CSS"]}
                 />
                 <Project
-                    link="https://github.com/Rohanjoshi2/hello-prisma"
-                    title="HELLO-PRISMA"
+                    link="https://github.com/RohanJoshi2/Login-System"
+                    title="Login System"
                     description="My first time using many things like SQL, Prisma, Docker, and advanced Node JS."
                     languages={[ "HTML", "CSS", "JavaScript", "Node JS", "Express JS", "Prisma ORM", "Postgre SQL", "Docker" ]}
                 />
