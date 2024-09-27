@@ -1,1 +1,0 @@
-Simple portfolio made in typescript.

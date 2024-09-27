@@ -10,7 +10,7 @@ export function Projects() {
                     link="https://github.com/Rohanjoshi2/portfolio"
                     title="Portfolio"
                     description="The portfolio you are looking at right now!"
-                    languages={[ "React JS", "Next JS", "TypeScript", "CSS", "Vercel", "Figma", "Radix UI" ]}
+                    languages={[ "React JS", "Next JS", "TypeScript", "JavaScript", "CSS", "Vercel", "Figma", "Radix UI" ]}
                 />
                 <Project
                     link="https://github.com/Rohanjoshi2/stopwatch"
