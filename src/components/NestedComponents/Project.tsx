@@ -30,11 +30,11 @@ export const Project: React.FC<ProjectProps> = ({ link, title, description, lang
         <div className="flex flex-col space-y-1.5 flex-grow">
           <div className="space-y-1">
             <h3 className="font-semibold tracking-tight text-base">
-              <a href={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:underline">
+              <a href={link} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 hover:underline text-[#FFFFFF]">
                 {title}
               </a>
             </h3>
-            <p className="text-muted-foreground text-xs print:text-[10px]">{description}</p>
+            <p className="text-muted-foreground text-xs print:text-[10px] text-[#FFFFFF]">{description}</p>
           </div>
         </div>
         <div className="text-pretty text-sm text-muted-foreground mt-auto flex">
