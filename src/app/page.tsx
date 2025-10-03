@@ -10,9 +10,9 @@ export default function Home() {
       <div className="mx-auto w-full max-w-2xl space-y-8 print:space-y-4">
           <Head/>
           <AboutMe/>
+          <Projects/>
           <WorkEx/>
           <Languages/>
-          <Projects/>
       </div>
     </main>
   );
